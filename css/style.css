@@ -1,0 +1,645 @@
+#btnUp
+{
+  bottom: 30px;
+  right: 30px;
+  z-index: 55555;
+  display: none;
+}
+#btnChat
+{
+  bottom: 30px;
+  left: 30px;
+  z-index: 5555;
+  display: none;
+}
+#main-nav
+{
+  transition-duration: 0.5s;
+}
+.header-content h1
+{
+    display: none;
+}
+.header-content span {
+  display: none;
+}
+h1
+{
+    font-size: 50px;
+
+}
+
+.header-content h2
+{
+  display: none;
+  margin: 0 auto;
+  padding: 0px !important;
+  height: 36px;
+    
+}
+
+.header-content button
+{
+    display: none;
+}
+
+
+header
+{
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover ;
+}
+.layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar a
+{
+   text-decoration: none;
+   font-family: 'Charmonman', cursive;
+   color:white;   
+}
+.navbar a:hover
+{
+    color:#ffc800 ;
+    transition-duration:0.5s;
+    border-bottom:solid 1px #ffc800 ;
+}
+
+.navbar .active  
+{
+    color:#ffc800 ;
+    font-family: 'Charmonman', cursive;
+    font-size:28px;
+    font-weight:900;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+    border: none;
+}
+.navbar .active:hover
+{
+    border: none;
+}
+.btn:hover
+{
+   transition-duration: 0.5s;
+}
+.course
+{
+    color:#ffc800 ;
+}
+.header-content span
+{
+    color:#ffc800 ;
+}
+
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #ffc800;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* end task 1 */
+
+/* start task 2 */
+.info h2
+{
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.about-image:hover img
+{
+  transition-duration: 0.8s;
+  transform: scale(1.3,1.3);
+}
+.about-image
+{
+  overflow: hidden;
+}
+.info h2::after
+{
+    content: "";
+    border-bottom:  solid 4px;
+    position: absolute;
+    width: 100px;
+    color: #ffc800;
+    bottom: 0;
+    left: 0px;    
+    height: 3px;
+}
+
+.info p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4e4e4e;
+    line-height: 1.6;
+}
+/* end task 2 */
+
+/* start task count */
+
+
+
+/* end task count */
+  /* start task 3 */
+#Courses
+{
+    background-color: rgba(128, 128, 128, 0.055);
+}
+.course h2
+{
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 38px;
+    font-weight: 700;
+}
+.course h3
+{
+    
+    font-size:70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3b434a23;
+    font-family: "Raleway", sans-serif;
+}
+.course h2::after
+{
+    content: "";
+    border-bottom:  solid 5px;
+    position: absolute;
+    width: 20px;
+    color:#ffc800 ;
+    bottom: 0;
+    left: 0px;    
+    height: 3px;
+}
+:hover.course h2::after
+{
+    border-bottom:  solid 5px;
+    width: 100%;
+    height: 3px;
+    transition-duration:0.5s
+}  
+.content:hover img
+{
+  transition-duration: 0.8s;
+    transform: scale(1.3,1.3);
+}
+.content 
+{
+
+  overflow: hidden;
+}
+
+  /* Add padding BETWEEN each column (if you want) */
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after co.contents */
+  
+  /* Content */
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    cursor: pointer;
+    border: solid 1px #ffc800;
+  }
+  .btn:hover
+  {
+    background-color: #ffc800;
+    color: white;
+  }
+  img
+  {
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  
+  /* Add a dark background color to the active button */
+  .btn.active {
+    background-color: #ffc800;
+     color:white ;
+  }
+
+  /* end task 3 */
+
+  /* start task 4 */
+.all
+{
+  background-color: #343a40;
+}
+  .overlay
+  {
+    width: 100%;
+    height: 100%;
+    background-color: #ffc80094;
+    right:0%;
+    left: 0%;
+    bottom: 0%;
+    transition:0.5s ease;
+    opacity: 0;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .trainers-content:hover .overlay 
+  {
+      transition-duration: 0.5s;
+      opacity: 1;
+      width: 100%;
+      border-radius: 50%;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .text h5:hover
+  {
+    color: #000;
+    transition-duration:1s
+  }
+  .trainers-content:hover .overlay:hover img
+{  
+   transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
+}
+ .trainers-content:hover .overlay img
+{
+    border-radius: 3px;
+}
+.text h6:hover
+  {
+    color: #000;
+    transition-duration:1s
+  }
+
+.overlay a
+{
+    color: #fff;
+}
+.overlay a:hover 
+{
+  color: #000;
+  transition-duration:1s
+}
+  /* start task 5 */
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+
+  }
+
+  .card:hover img
+  {
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+  }
+  .card
+  {
+    overflow: hidden;
+  }
+
+  .like
+  {
+    font-size: 25px;
+    color: rgb(64, 64, 224);
+    cursor: pointer;
+  }
+  /* end task 5 */
+
+  
+/* start task 6 */
+
+ #footer
+{
+  background-color: #343a40;
+}
+.angle-side
+{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    background: #ffc800;
+}
+.angle-side:hover
+{
+    background: #ffc800;
+
+}
+
+.angle-side i
+{
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    padding: 5px;
+}
+.informatian h3
+{
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.informatian h6
+{
+    color: #b0b0b0;
+    font-family: "Poppins", sans-serif;
+}
+.popular h6:hover
+{
+    color: #ffc80094;
+    transition-duration: 0.3s;
+
+}
+.btn-informatian
+{
+    background-color: transparent;
+    color: #b0b0b0;
+    border-radius: 3px;
+    text-decoration: none;
+    border: solid 1px #b0b0b0;
+}
+.bton:hover 
+{
+    color: #ffc80094;
+    transition-duration: 0.1s;
+
+}
+/*  */
+
+/* */
+
+#end
+{
+    background-color: black;
+}
+.ang a
+{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-align: right;
+    font-size: 17px;
+    text-decoration: none;
+    border: none;
+}
+.ang:hover
+{
+    color: #ffc80094;
+    transition-duration: 0.1s;
+    text-decoration: none;
+
+}
+.file:hover i
+{
+    color: #ffc80094;
+    transition-duration: 0.1s;
+}
+
+/* */
+
+/* start client reviews */
+.client h2
+{
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 38px;
+    font-weight: 700;
+}
+.client h3
+{
+    
+    font-size:70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3b434a23;
+    font-family: "Raleway", sans-serif;
+}
+.client h2::after
+{
+    content: "";
+    border-bottom:  solid 1px;
+    position: absolute;
+    width: 50px;
+    color: #282828;
+    bottom: 0;
+    left: 110px;    
+    height: 3px;
+}
+:hover.client h2::after
+{
+    border-bottom:  solid 1px;
+    width: 60px;
+    transition-duration:0.5s
+}
+
+
+.carousel-indicators li
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-indent: 0;
+    margin: 30px;
+}
+.x
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-indent: 0;
+    top: 1px;
+}
+.img-clint
+{
+    width: 70px;
+    padding: 5px;
+}
+/*** contact ******/
+.o  h6
+{
+    opacity: 0;
+}
+.o:hover h6 
+{
+    opacity: 1;
+}
+#carouselExampleIndicators.active
+{
+    opacity: 1;
+}
+.informatian h6
+{
+  cursor: pointer;
+}
+.count
+{
+  font-size: 55px;
+}
+.count h2
+{
+  font-size: 55px;
+}
+
+
+
+/* slide /*
+
+
+/* Hide the images by default */
+
+.slid {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.slid-img {
+display: inline-block;
+}
+.slid-img img{
+  height: 200px;
+  width: 249px;
+}
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
